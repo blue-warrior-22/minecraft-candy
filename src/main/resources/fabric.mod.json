@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "coolredstone",
+  "version": "${version}",
+
+  "name": "Minecraft Candy",
+  "description": "Gives you minecraft candy",
+  "authors": [
+    "Blue_Warrior_22"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/coolredstone/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fabricmc.coolredstone.candy"
+    ]
+  },
+  "mixins": [
+    "coolredstone.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
